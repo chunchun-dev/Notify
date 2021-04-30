@@ -115,17 +115,17 @@ const initialValue = [
     children: [
       {
         text:
-          'You have just opened a note! Congrats! Notes are written in (Markdown)[https://daringfireball.net/projects/markdown/syntax]',
+          '# You have just opened a note! Congrats! Notes are written in [Markdown](https://en.wikipedia.org/wiki/Markdown)',
       },
     ],
   },
   {
     type: 'paragraph',
-    children: [{ text: '## Try it out!' }],
+    children: [{ text: '## Try it out for yourself' }],
   },
   {
     type: 'paragraph',
-    children: [{ text: 'Try it out for yourself!' }],
+    children: [{ text: 'Start Typing!' }],
   },
 ]
 
