@@ -3,18 +3,14 @@
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   height: 100vh;
 }
 
 .main {
-  padding: 5rem 0;
+  padding: 2rem 0;
   flex: 1;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .footer {
@@ -70,6 +66,7 @@
 }
 
 .grid {
+  color: #fafafa;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -79,12 +76,13 @@
 }
 
 .card {
+  background-color: #1c1f26;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
-  color: #212121;
+  color: inherit;
   text-decoration: none;
-  border: 1px solid #212121;
+  border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
