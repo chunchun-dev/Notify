@@ -1,6 +1,6 @@
 import {useRouter} from 'next/router'
 import React from 'react'
-import Editor from '../../components/Editor/Editor'
+import MarkdownEditor from '../../components/Editor/MarkdownEditor'
 
 function editor() {
 
@@ -9,10 +9,10 @@ function editor() {
 
     return (
         <div style={{
-            padding: '20px',
-            margin: '20px'
+            padding: '5px',
+            margin: '5px'
         }}>
-            <Editor id={id}/>
+            <MarkdownEditor/>
         </div>
     )
 }

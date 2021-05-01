@@ -13,10 +13,11 @@ function NotePreviewGrid() {
     return (
         <div className={styles.container}>
             <main className={styles.main}>
+                <h1 className={styles.pagetitle}>Your Notes</h1>
                 <div className={styles.grid}>
                     {notes.map((note, id) => (
                         <a href={`/editor/${id}`} className={styles.card} key={id}>
-                            <h2>{note.title} &rarr;</h2>
+                            <h2>{note.title}</h2>
                             <p>{note.description}</p>
                         </a>
                     ))}
