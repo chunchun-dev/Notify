@@ -10,7 +10,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className='flex items-center flex-wrap bg-gray-900 p-2 '>
+      <nav className='flex items-center flex-wrap bg-black p-2 '>
         <Link href='/'>
           <a className='inline-flex items-center p-2 mr-4 '>
             <svg

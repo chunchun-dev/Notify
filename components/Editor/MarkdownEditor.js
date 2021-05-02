@@ -24,7 +24,7 @@ function MarkdownEditor() {
             width: '100vw'
         }}>
             <Editor
-                height="100vh"
+                height="85vh"
                 width="50%"
                 defaultLanguage="markdown"
                 defaultValue="// some comment"
