@@ -1,9 +1,7 @@
-import NotePreviewGrid from '../components/NotePreviewGrid'
-
 export default function Home() {
   return (
     <>
-      <NotePreviewGrid/>
+      <h1>Landing page Page</h1>
     </>
   )
 }
