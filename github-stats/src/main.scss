@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+html,
+body {
+  --dark-blue: hsl(230, 17%, 14%);
+  --dark-desaturated-blue: hsl(228, 28%, 20%);
+  --desaturated-blue: hsl(228, 34%, 66%);
+  --white: hsl(0, 0%, 100%);
+
+  background: var(--dark-blue);
+  color: var(--white);
+  height: 100vh;
+  width: 100vw;
+  font-family: "Inter";
+}
+
+.container {
+  margin-top: 2vw !important;
+  margin: 5vw;
+  padding: 1vw;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-side-header {
+  align-self: flex-end;
+  flex-direction: row;
+
+  .dark-mode-text {
+    color: white;
+    background-color: hsl(231, 15%, 25%);
+    text-align: center;
+    padding: 5px;
+    border: 5px gray;
+    font-size: large;
+    border-radius: 5px;
+  }
+}
+
+.stat-card-container {
+  flex: auto;
+  display: flex;
+  width: auto;
+  margin: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+  .stat-card-container {
+    flex-wrap: wrap;
+  }
+}
+
+.stat-card {
+  border: 2px solid hsl(163, 72%, 41%);
+  border-radius: 5px;
+  flex: 25%;
+  padding: 5vw;
+  margin: 1vw;
+  background-color: var(--dark-desaturated-blue);
+
+  .follow-count {
+    font-size: 3vw;
+  }
+
+  .caption {
+    text-transform: uppercase;
+  }
+}
+
+.stat-card:hover {
+  border: 3px solid hsl(163, 97%, 57%);
+}
+
+.basic-info {
+    padding-top: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        border-radius: 50%;
+    }
+}
